@@ -1,0 +1,14 @@
+pipelin{
+
+    agent any
+
+    stages{
+
+        stage('Continuous Download'){
+
+            steps{
+                git branch: 'main', https://github.com/njokadeclan/DEVOPS-PROJECT.git
+            }
+        }
+    }
+}
