@@ -7,7 +7,7 @@ pipelin{
         stage('Continuous Download'){
 
             steps{
-                git branch: 'main', 'https://github.com/njokadeclan/DEVOPS-PROJECT.git'
+                git branch: 'main', url: 'githttps://github.com/njokadeclan/DEVOPS-PROJECT.git'
             }
         }
     }
